@@ -1,0 +1,23 @@
+{
+ "align_labels_right": 0, 
+ "creation": "2019-02-15 11:49:08.608619", 
+ "custom_format": 1, 
+ "default_print_language": "en", 
+ "disabled": 0, 
+ "doc_type": "Inward Master", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Default", 
+ "html": "<style>\n\t.print-format table, .print-format tr, \n\t.print-format td, .print-format div, .print-format p {\n\t\tfont-family: Tahoma, sans-serif;\n\t\tline-height: 150%;\n\t\tvertical-align: middle;\n\t}\n\t@media screen {\n\t\t.print-format {\n\t\t\twidth: 4in;\n\t\t\tpadding: 0.25in;\n\t\t\tmin-height: 8in;\n\t\t}\n\t}\n</style>\n\n{% if letter_head %}\n    {{ letter_head }}\n{% endif %}\n\n<p class=\"text-center\" style=\"margin-bottom: 1rem\">\n\t{{ doc.company }}<br>\n\t{{ _(\"Restaurant Order\") }}</br></p>\n<p>\n\t<b>{{ _(\"Receipt No\") }}:</b> \"",
+ "idx": 0, 
+ "line_breaks": 0, 
+ "modified": "2019-02-18 11:49:08.608619", 
+ "modified_by": "Administrator", 
+ "module": "Erp14 Kreativ", 
+ "name": "Inward Master Classic", 
+ "owner": "Administrator", 
+ "print_format_builder": 0, 
+ "print_format_type": "Jinja", 
+ "show_section_headings": 0, 
+ "standard": "Yes"
+}

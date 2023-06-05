@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-05-23 14:14:49.657641",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "drwno",
+  "boreod",
+  "kwd",
+  "remarks",
+  "column_break1",
+  "type",
+  "flangethickness",
+  "kwt",
+  "column_brake2",
+  "boreid",
+  "kww",
+  "degree",
+  "active"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "TYPE",
+   "options": "\nHOLLOW\nSHAFTED"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "options": "DR-.######"
+  },
+  {
+   "fieldname": "drwno",
+   "fieldtype": "Data",
+   "label": "DRWNO"
+  },
+  {
+   "fieldname": "boreod",
+   "fieldtype": "Float",
+   "label": "BOREOD"
+  },
+  {
+   "fieldname": "kwd",
+   "fieldtype": "Float",
+   "label": "KWD"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "flangethickness",
+   "fieldtype": "Float",
+   "label": "FLANGETHICKNESS"
+  },
+  {
+   "fieldname": "kwt",
+   "fieldtype": "Select",
+   "label": "KWT",
+   "options": "\nPA\nPB"
+  },
+  {
+   "fieldname": "boreid",
+   "fieldtype": "Float",
+   "label": "BOREID"
+  },
+  {
+   "fieldname": "kww",
+   "fieldtype": "Float",
+   "label": "KWW"
+  },
+  {
+   "fieldname": "degree",
+   "fieldtype": "Data",
+   "label": "Degree"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "column_brake2",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-29 17:23:17.583810",
+ "modified_by": "Administrator",
+ "module": "Erp14 Kreativ",
+ "name": "Drawing Details",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "  k_changes": 1
+}

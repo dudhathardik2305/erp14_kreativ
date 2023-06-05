@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:inward_no",
+ "creation": "2023-05-17 15:49:22.820233",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "inward_no",
+  "inward_date",
+  "customer",
+  "job_name",
+  "remarks",
+  "auth_user",
+  "column_break1",
+  "branch",
+  "challan_no",
+  "job_id",
+  "supp_remarks",
+  "entry_by",
+  "column_break2",
+  "deli_date",
+  "challan_date",
+  "supp_inward_no",
+  "inward_details_section",
+  "inward_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "inward_no",
+   "fieldtype": "Data",
+   "label": "Inward No",
+   "unique": 1
+  },
+  {
+   "fieldname": "inward_date",
+   "fieldtype": "Date",
+   "label": "Inward Date"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "job_name",
+   "fieldtype": "Data",
+   "label": "Job Name"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "REMARKS"
+  },
+  {
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "challan_no",
+   "fieldtype": "Data",
+   "label": "Challan No"
+  },
+  {
+   "fieldname": "job_id",
+   "fieldtype": "Data",
+   "label": "JOB ID"
+  },
+  {
+   "fieldname": "supp_remarks",
+   "fieldtype": "Text",
+   "label": "SUPP. REMARKS"
+  },
+  {
+   "fieldname": "column_break2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "deli_date",
+   "fieldtype": "Date",
+   "label": "Deli Date"
+  },
+  {
+   "fieldname": "challan_date",
+   "fieldtype": "Date",
+   "label": "Challan Date"
+  },
+  {
+   "fieldname": "supp_inward_no",
+   "fieldtype": "Data",
+   "label": "Supp Inward No"
+  },
+  {
+   "fieldname": "inward_details_section",
+   "fieldtype": "Section Break",
+   "label": "INWARD DETAILS"
+  },
+  {
+   "fieldname": "inward_details",
+   "fieldtype": "Table",
+   "label": "Inward Details",
+   "options": "Inward Details"
+  },
+  {
+   "fieldname": "auth_user",
+   "fieldtype": "Data",
+   "label": "Auth User"
+  },
+  {
+   "default": "frappe.session.user",
+   "fieldname": "entry_by",
+   "fieldtype": "Link",
+   "label": "Entry By",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-17 16:56:32.892144",
+ "modified_by": "Administrator",
+ "module": "Erp14 Kreativ",
+ "name": "Inward Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
