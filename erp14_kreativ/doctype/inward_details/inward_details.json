@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "autoname": "field:fab_orderno",
+ "creation": "2023-05-17 15:55:42.603039",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "jobtype",
+  "fab_orderno",
+  "fabricator",
+  "rollers",
+  "msdia",
+  "dia",
+  "circum",
+  "length",
+  "roll_type"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "jobtype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "JOBTYPE",
+   "options": "Item"
+  },
+  {
+   "columns": 1,
+   "fieldname": "fab_orderno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FAB ORDERNO",
+   "unique": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "fabricator",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FABRICATOR"
+  },
+  {
+   "columns": 1,
+   "fieldname": "rollers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ROLLERS"
+  },
+  {
+   "columns": 1,
+   "fieldname": "msdia",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MSDIA"
+  },
+  {
+   "columns": 1,
+   "fieldname": "dia",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DIA"
+  },
+  {
+   "columns": 1,
+   "fieldname": "circum",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CIRCUM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "length",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "LENGTH"
+  },
+  {
+   "columns": 1,
+   "fieldname": "roll_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "ROLL Type",
+   "options": "\nHOLLOW\nSHAFTED"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-17 16:04:57.780593",
+ "modified_by": "Administrator",
+ "module": "Erp14 Kreativ",
+ "name": "Inward Details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
